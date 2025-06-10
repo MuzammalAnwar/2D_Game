@@ -1,0 +1,45 @@
+const level1 = new Level(
+    [
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+        new CollectableObject('img/craftpix-891123-free-golems-chibi-2d-game-sprites/Golem_2/PNG/Vector Parts/SwordSmall.png'),
+    ],
+    [
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png'),
+        new CollectableObject('img/craftpix-990161-free-candy-match-3-game-items/PNG/ico/16.png')
+    ],
+    [
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sized.png', -594 * 3, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sized.png', -594 * 2, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', -594, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sized.png', 0, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 2, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 3, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 4, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 5, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 6, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 7, 0),
+        new BackgroundImage('img/free-market-cartoon-2d-game-tileset/PNG/Background/Background_01sizedRevert.png', 594 * 8, 0),
+    ],
+    [
+        new Enemy(),
+        new Enemy(),
+        new Enemy(),
+        new Enemy(),
+        new Enemy(),
+        new Enemy(),
+        new Enemy(),
+    ]
+)
